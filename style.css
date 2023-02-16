@@ -1,0 +1,43 @@
+:root {
+    --dark-blue: #264653;
+    --light-green: #2a9d8f;
+    --white: white;
+    --orange: #f4a261;
+    --black: black;
+    }
+    .container {
+    color: var(--dark-blue);
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 100vh;
+    background-color: var(--white);
+    }
+   
+    .row {
+    border: 1px solid var(--white);
+    min-height: 50px;
+    }
+
+    div[class^="col"] {
+        border: 1px solid var(--black);
+    }
+
+    .tall {
+        min-height: 500px;
+    }
+    
+    .center {
+        text-align: center;
+    }
+
+    div.a {
+        text-align: left;
+    }
+
+    div.b {
+        text-align: center;
+    }
+
+    div.c {
+        text-align: right;
+    }
